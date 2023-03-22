@@ -4,7 +4,7 @@
     --cor-primaria: #000000;
     --cor-secundaria: #f6f6f6;
     --corterciaria: #22D4FD;
-    --cor-hover: #272727;
+    --cor-hover: #2c5559;
 
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
@@ -16,7 +16,9 @@
 }
 
 body {
-    background-color: var(--cor-primaria);
+    background-image: url("../imagens/fundo.png");   
+    background-size: cover;
+    background-position: center; 
     color: var(--cor-secundaria);
     box-sizing: border-box;
 }
@@ -103,7 +105,8 @@ body {
 }
 
 .apresentacao__imagem {
-    width: 50%;
+    width: 30%;
+    border-radius: 100%;
 }
 
 .rodape {
