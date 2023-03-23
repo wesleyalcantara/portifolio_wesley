@@ -16,7 +16,7 @@
 }
 
 body {
-    background-image: url("../imagens/fundo.png");   
+    background-image: url("../imagens/fundo1.jpg");   
     background-size: cover;
     background-position: center; 
     color: var(--cor-secundaria);
@@ -75,6 +75,13 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__links__about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     gap: 32px;
 }
 
